@@ -177,7 +177,7 @@ export default function DashboardLayoutBasic(props) {
       branding={{
         logo: "",
         // logo: <img src="https://mui.com/static/logo.png" alt="MUI logo" />,
-        title: 'User Management RBAC',
+        title: 'User Management',
         homeUrl: '/toolpad/core/introduction',
       }}
       // window={demoWindow}
