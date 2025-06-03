@@ -6,17 +6,17 @@ function Dashboard(){
         {
           id: 1,
           title: 'Admin',
-          description: 5,
+          description: 10,
         },
         {
           id: 2,
           title: 'Users',
-          description: 10,
+          description: 100,
         },
         {
           id: 3,
           title: 'Consumers',
-          description: 20,
+          description: 200,
         },
     ];
 
