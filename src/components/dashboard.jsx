@@ -5,17 +5,17 @@ function Dashboard(){
     const cards = [
         {
           id: 1,
-          title: 'Admin',
+          title: 'Users',
           description: 10,
         },
         {
           id: 2,
-          title: 'Users',
+          title: 'Customers',
           description: 100,
         },
         {
           id: 3,
-          title: 'Consumers',
+          title: 'Reports',
           description: 200,
         },
     ];
