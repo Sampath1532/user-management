@@ -1,4 +1,4 @@
-import { Box, Card, CardActionArea, CardContent, Grid2, Typography } from '@mui/material';
+import { Box, Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import * as React from 'react'
 
 function Dashboard(){

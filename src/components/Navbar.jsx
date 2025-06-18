@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { extendTheme, styled } from '@mui/material/styles';
+import { extendTheme } from '@mui/material/styles';
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import BarChartIcon from '@mui/icons-material/BarChart';
@@ -8,8 +8,6 @@ import LayersIcon from '@mui/icons-material/Layers';
 import { AppProvider } from '@toolpad/core/AppProvider';
 import { DashboardLayout } from '@toolpad/core/DashboardLayout';
 import { PageContainer } from '@toolpad/core/PageContainer';
-import Grid from '@mui/material/Grid2';
-import { Typography } from '@mui/material';
 import { useState } from 'react';
 import Dashboard from './dashboard';
 
@@ -127,12 +125,12 @@ function useDemoRouter(initialPath) {
   return router;
 }
 
-const Skeleton = styled('div')(({ theme, height }) => ({
-  backgroundColor: theme.palette.action.hover,
-  borderRadius: theme.shape.borderRadius,
-  height,
-  content: '" "',
-}));
+// const Skeleton = styled('div')(({ theme, height }) => ({
+//   backgroundColor: theme.palette.action.hover,
+//   borderRadius: theme.shape.borderRadius,
+//   height,
+//   content: '" "',
+// }));
 
 export default function DashboardLayoutBasic(props) {
   // const { window } = props;
