@@ -6,7 +6,7 @@ function Dashboard(){
         {
           id: 1,
           title: 'Users',
-          description: 10,
+          description: 10000,
         },
         {
           id: 2,
